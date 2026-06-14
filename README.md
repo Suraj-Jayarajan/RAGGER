@@ -46,7 +46,7 @@ RAGGER/
 
 ## Screenshot
 
-![RAGGER dashboard screenshot](docs/screenshots/image.png)
+![RAGGER dashboard screenshot](public/screenshots/image.png)
 
 ## Architecture Direction
 
