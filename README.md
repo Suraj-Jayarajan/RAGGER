@@ -56,13 +56,12 @@ The backend should keep framework code at the edges. FastAPI, PostgreSQL, Redis,
 
 ## Docker-First Development
 
-The initial compose setup provides infrastructure services only:
+The local compose setup provides the backend service and core infrastructure:
 
+- Backend API
 - PostgreSQL
 - Redis
 - Qdrant
-
-Application containers will be added once frontend and backend application code is introduced.
 
 ```bash
 docker compose up -d
@@ -72,6 +71,12 @@ docker compose down
 
 Copy `.env.example` to `.env` before local development and adjust secrets as needed.
 
+The backend runs with Uvicorn hot reload enabled in Docker. The health endpoint is available at:
+
+```text
+GET http://localhost:8000/api/v1/health
+```
+
 ## Current Status
 
-This repository currently contains project structure, configuration templates, and Docker infrastructure placeholders only. Application code has intentionally not been generated yet.
+This repository currently contains the initial FastAPI backend service, project structure, configuration templates, and Docker infrastructure. Authentication has intentionally not been implemented yet.
