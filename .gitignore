@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Frontend build outputs
+apps/frontend/dist/
+apps/frontend/.vite/
+
+# Backend build outputs
+apps/backend/dist/
+apps/backend/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Docker and local volumes
+.docker/
+docker-data/
+tmp/
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test and tooling artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Local generated files
+*.local
