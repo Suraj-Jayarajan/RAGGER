@@ -38,10 +38,15 @@ RAGGER/
         celery/
         langgraph/
   docs/                       # Architecture and product documentation
+    screenshots/              # Visuals and UI screenshots
   scripts/                    # Developer and automation scripts
   .github/
     workflows/                # CI/CD workflows
 ```
+
+## Screenshot
+
+![RAGGER dashboard screenshot](docs/screenshots/image.png)
 
 ## Architecture Direction
 

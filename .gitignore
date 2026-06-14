@@ -58,3 +58,6 @@ test-results/
 
 # Local generated files
 *.local
+
+# docs
+docs/
